@@ -12,6 +12,7 @@
   "dependencies": {
     "dialogflow": "^0.5.0",
     "express": "^4.15.3",
+    "react-scrollbars": "0.0.5",
     "socket.io": "^2.0.1"
   }
 }
