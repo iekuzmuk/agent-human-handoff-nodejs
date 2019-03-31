@@ -13,6 +13,7 @@ var agentKey = process.env.agentKey;
  if(process.env.AI_KEY_PATH){
  	var fs = require("fs");
 	agentKey = fs.readFileSync(process.env.AI_KEY_PATH);
+	console.log('credenciales OK');
  }
  else if(!agentKey) {
 	console.log('faltan las credenciales');
